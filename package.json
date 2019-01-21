@@ -1,0 +1,26 @@
+{
+  "name": "foo-content",
+  "version": "0.0.1",
+  "description": "Content for Foo",
+  "main": "dist/index.js",
+  "module": "src/index.js",
+  "sideEffects": false,
+  "license": "UNLICENSED",
+  "scripts": {
+    "build": "npm run transpile && npm run minify:js:en && npm run minify:js:getContent && npm run minify:js:index",
+    "postinstall": "npm run build",
+    "transpile": "npx babel src --out-dir dist",
+    "minify:js:en": "uglifyjs dist/en.js -o dist/en.js -c",
+    "minify:js:getContent": "uglifyjs dist/getContent.js -o dist/getContent.js -c",
+    "minify:js:index": "uglifyjs dist/index.js -o dist/index.js -c"
+  },
+  "dependencies": {
+    "lodash.get": "^4.4.2"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.2.3",
+    "@babel/core": "^7.2.2",
+    "@babel/preset-env": "^7.2.3",
+    "uglify-js": "^3.4.9"
+  }
+}
