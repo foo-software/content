@@ -10,9 +10,9 @@
     "build": "npm run transpile && npm run minify:js:en && npm run minify:js:getContent && npm run minify:js:index",
     "postinstall": "npm run build",
     "transpile": "npx babel src --out-dir dist",
-    "minify:js:en": "./node_modules/uglify-js/bin/uglifyjs dist/en.js -o dist/en.js -c",
-    "minify:js:getContent": "./node_modules/uglify-js/bin/uglifyjs dist/getContent.js -o dist/getContent.js -c",
-    "minify:js:index": "./node_modules/uglify-js/bin/uglifyjs dist/index.js -o dist/index.js -c"
+    "minify:js:en": "node_modules/uglify-js/bin/uglifyjs dist/en.js -o dist/en.js -c",
+    "minify:js:getContent": "node_modules/uglify-js/bin/uglifyjs dist/getContent.js -o dist/getContent.js -c",
+    "minify:js:index": "node_modules/uglify-js/bin/uglifyjs dist/index.js -o dist/index.js -c"
   },
   "dependencies": {
     "lodash.get": "^4.4.2"
