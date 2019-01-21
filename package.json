@@ -8,7 +8,6 @@
   "license": "UNLICENSED",
   "scripts": {
     "build": "npm run transpile && npm run minify:js:en && npm run minify:js:getContent && npm run minify:js:index",
-    "postinstall": "npm run build",
     "transpile": "npx babel src --out-dir dist",
     "minify:js:en": "npx uglifyjs dist/en.js -o dist/en.js -c",
     "minify:js:getContent": "npx uglifyjs dist/getContent.js -o dist/getContent.js -c",
