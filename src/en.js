@@ -123,6 +123,7 @@ export const ERROR_UNHANDLED_EXCEPTION = 'Unhandled error.';
 export const ERROR_UPDATE = 'Error updating.';
 export const ERROR_USER_ACCOUNT_SUSPENDED = 'Your account is pending attention by us. Please contact us if you need more info.';
 export const ERROR_USER_CREATE_PASSWORD_RESET_TOKEN = 'Error creating reset token.';
+export const ERROR_USER_CREATE_PASSWORD_RESET_TOKEN_NO_USER = 'No users found with that email.';
 export const ERROR_USER_EMAIL_CONFIRMATION_SENT = 'Error sending confirmation email.';
 export const ERROR_USER_LOGIN = 'Error logging in.';
 export const ERROR_USER_REGISTER = 'Error registering.';
