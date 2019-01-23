@@ -6,8 +6,8 @@ export const EMAIL_TEMPLATE_ACCOUNT_CANCEL_MAIN = {
 export const EMAIL_TEMPLATE_ACCOUNT_CANCEL_MAIN_FREE_TRIAL = {
   get: ({ accountName }) => `Sorry to see you go! "${accountName}" has been canceled. Because you canceled during the trial period - you will not be charged.`,
 };
-export const EMAIL_TEMPLATE_ACCOUNT_USER_ADDED_HEADLINE = `You're Added!`;
 export const EMAIL_TEMPLATE_ACCOUNT_USER_ADDED_CTA = 'Manage your accounts here.';
+export const EMAIL_TEMPLATE_ACCOUNT_USER_ADDED_HEADLINE = `You're Added!`;
 export const EMAIL_TEMPLATE_ACCOUNT_USER_ADDED_MAIN = {
   get: ({ accountName }) => `You've been added to "${accountName}" Foo account.`,
 };
