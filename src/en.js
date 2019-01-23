@@ -6,27 +6,33 @@ export const EMAIL_TEMPLATE_ACCOUNT_CANCEL_MAIN = {
 export const EMAIL_TEMPLATE_ACCOUNT_CANCEL_MAIN_FREE_TRIAL = {
   get: ({ accountName }) => `Sorry to see you go! "${accountName}" has been canceled. Because you canceled during the trial period - you will not be charged.`,
 };
+export const EMAIL_TEMPLATE_ACCOUNT_CANCEL_SUBJECT = 'Account Canceled';
 export const EMAIL_TEMPLATE_ACCOUNT_USER_ADDED_CTA = 'Manage your accounts here.';
 export const EMAIL_TEMPLATE_ACCOUNT_USER_ADDED_HEADLINE = `You're Added!`;
 export const EMAIL_TEMPLATE_ACCOUNT_USER_ADDED_MAIN = {
   get: ({ accountName }) => `You've been added to "${accountName}" Foo account.`,
 };
+export const EMAIL_TEMPLATE_ACCOUNT_USER_ADDED_SUBJECT = `You've Been Added`;
 export const EMAIL_TEMPLATE_ACCOUNT_USER_INVITED_CTA = 'Accept the invitation by registering here.';
 export const EMAIL_TEMPLATE_ACCOUNT_USER_INVITED_HEADLINE = `You're Invited!`;
 export const EMAIL_TEMPLATE_ACCOUNT_USER_INVITED_MAIN = {
   get: ({ accountName }) => `You've been invited to "${accountName}" Foo account.`,
 };
+export const EMAIL_TEMPLATE_ACCOUNT_USER_INVITED_SUBJECT = `You've Been Invited`;
 export const EMAIL_TEMPLATE_ACCOUNT_USER_REMOVED_CONFIRMATION_CTA = 'Visit us anytime!';
 export const EMAIL_TEMPLATE_ACCOUNT_USER_REMOVED_CONFIRMATION_HEADLINE = 'Removed Confirmation';
 export const EMAIL_TEMPLATE_ACCOUNT_USER_REMOVED_CONFIRMATION_MAIN = {
   get: ({ accountName }) => `This is just a confirmation that you've been removed from "${accountName}".`,
 };
+export const EMAIL_TEMPLATE_ACCOUNT_USER_REMOVED_CONFIRMATION_SUBJECT = 'Removed from Account Confirmation';
 export const EMAIL_TEMPLATE_EMAIL_CONFIRM = 'Please confirm your email address.';
 export const EMAIL_TEMPLATE_EMAIL_CONFIRM_CTA = 'Navigate here to confirm.';
 export const EMAIL_TEMPLATE_EMAIL_CONFIRM_HEADLINE = 'Email Confirm';
+export const EMAIL_TEMPLATE_EMAIL_CONFIRM_SUBJECT = 'Confirm Your Email with Foo';
 export const EMAIL_TEMPLATE_EMAIL_ALERT_CONFIRM_CTA = 'Navigate here to confirm.';
 export const EMAIL_TEMPLATE_EMAIL_ALERT_CONFIRM_HEADLINE = 'Confirm';
 export const EMAIL_TEMPLATE_EMAIL_ALERT_CONFIRM_MAIN = 'Please confirm this email as an alert for Foo. This email will be notified with status updates as they occur.';
+export const EMAIL_TEMPLATE_EMAIL_ALERT_CONFIRM_SUBJECT = 'Email Alert Confirm';
 export const EMAIL_TEMPLATE_ID_ACCOUNT_CANCEL = 'd-5d850cea0d6e4262aea1677d5a4e45dc';
 export const EMAIL_TEMPLATE_ID_ACCOUNT_USER_ADDED = 'd-ff5d8e55aace43cca73583ac4e54ca81';
 export const EMAIL_TEMPLATE_ID_ACCOUNT_USER_INVITED = 'd-5e995c467ff941dcbd5aae3a9f146b4f';
@@ -46,11 +52,18 @@ export const EMAIL_TEMPLATE_INVITE_ACCEPTED_HEADLINE = 'Invite Accepted';
 export const EMAIL_TEMPLATE_INVITE_ACCEPTED_MAIN = {
   get: ({ email }) => `${email} has accepted your invite!`,
 };
+export const EMAIL_TEMPLATE_INVITE_ACCEPTED_SUBJECT = 'Invite Accepted';
 export const EMAIL_TEMPLATE_PAGE_HEALTH_ALERT_HEALTHY_MAIN = {
   get: ({ pageName }) => `"${pageName}" page has recovered.`,
 };
+export const EMAIL_TEMPLATE_PAGE_HEALTH_ALERT_HEALTHY_SUBJECT = {
+  get: ({ pageName }) => `"${pageName}" Has Recovered`,
+};
 export const EMAIL_TEMPLATE_PAGE_HEALTH_ALERT_UNHEALTHY_MAIN = {
   get: ({ pageName }) => `"${pageName}" page has become unhealthy.`,
+};
+export const EMAIL_TEMPLATE_PAGE_HEALTH_ALERT_UNHEALTHY_SUBJECT = {
+  get: ({ pageName }) => `"${pageName}" is Unhealthy`,
 };
 export const EMAIL_TEMPLATE_PAGE_HEALTH_ALERT_HEADLINE = 'Page Health Status';
 export const EMAIL_TEMPLATE_PAGE_HEALTH_ALERT_CTA = 'Dashboard';
@@ -60,21 +73,26 @@ export const EMAIL_TEMPLATE_PASSWORD_RESET_CTA = 'Navigate here to reset your pa
 export const EMAIL_TEMPLATE_PASSWORD_RESET_MAIN = {
   get: ({ passwordResetDays }) => `You have ${passwordResetDays} days to reset your password.`,
 };
+export const EMAIL_TEMPLATE_PASSWORD_RESET_SUBJECT = 'Password Reset';
 export const EMAIL_TEMPLATE_REFUND_STATUS_CTA = 'Visit us anytime here.';
 export const EMAIL_TEMPLATE_REFUND_STATUS_HEADLINE = 'Refund Status';
 export const EMAIL_TEMPLATE_REFUND_STATUS_MAIN = {
   get: ({ refundAmount }) => `You were refunded $${refundAmount}.`,
 };
+export const EMAIL_TEMPLATE_REFUND_STATUS_SUBJECT = 'Refund Status';
 export const EMAIL_TEMPLATE_SUBSCRIPTION_CREATED_CTA = 'Visit the dashboard.';
 export const EMAIL_TEMPLATE_SUBSCRIPTION_CREATED_HEADLINE = 'Congrats!';
 export const EMAIL_TEMPLATE_SUBSCRIPTION_CREATED_MAIN = {
   get: ({ price, trialDuration }) => `You've successfully created an account subscription. The free trial is ${trialDuration}. If you don't cancel before the end of the trial - you'll be charged ${price} on that day and every month until you cancel. You can cancel anytime in the account section. Cancellations are refunded a prorated amount. If you cancel before the free trial end you won't be charged at all!`,
 };
+export const EMAIL_TEMPLATE_SUBSCRIPTION_CREATED_SUBJECT = 'Subscription Created';
 export const EMAIL_TEMPLATE_SUBSCRIPTION_PAYMENT_PAST_DUE_CTA = 'You can update or add a new payment method in billing.';
 export const EMAIL_TEMPLATE_SUBSCRIPTION_PAYMENT_PAST_DUE_HEADLINE = 'Payment Status';
 export const EMAIL_TEMPLATE_SUBSCRIPTION_PAYMENT_PAST_DUE_MAIN = 'Your subscription payment is past due and therefore your account has been switched to "read only" mode until resolved.';
+export const EMAIL_TEMPLATE_SUBSCRIPTION_PAYMENT_PAST_DUE_SUBJECT = 'Subscription Payment Past Due';
 export const EMAIL_TEMPLATE_WELCOME_HEADLINE = 'Welcome!';
 export const EMAIL_TEMPLATE_WELCOME_MAIN = 'Thanks for registering.';
+export const EMAIL_TEMPLATE_WELCOME_SUBJECT = 'Thanks for Registering with Foo - Please Confirm Email';
 export const ERROR_ACCOUNT_CREATE = 'Error creating account.';
 export const ERROR_ACCOUNT_CREATE_NO_CREDIT = 'No account credits.';
 export const ERROR_ACCOUNT_FREE_ALREADY_USED = 'Only one free account allowed.';
