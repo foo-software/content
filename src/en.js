@@ -11,10 +11,15 @@ export const EMAIL_TEMPLATE_ACCOUNT_USER_ADDED_CTA = 'Manage your accounts here.
 export const EMAIL_TEMPLATE_ACCOUNT_USER_ADDED_MAIN = {
   get: ({ accountName }) => `You've been added to "${accountName}" Foo account.`,
 };
-export const EMAIL_TEMPLATE_ACCOUNT_USER_INVITED_HEADLINE = `You're Invited!`;
 export const EMAIL_TEMPLATE_ACCOUNT_USER_INVITED_CTA = 'Accept the invitation by registering here.';
+export const EMAIL_TEMPLATE_ACCOUNT_USER_INVITED_HEADLINE = `You're Invited!`;
 export const EMAIL_TEMPLATE_ACCOUNT_USER_INVITED_MAIN = {
   get: ({ accountName }) => `You've been invited to "${accountName}" Foo account.`,
+};
+export const EMAIL_TEMPLATE_ACCOUNT_USER_REMOVED_CONFIRMATION_CTA = 'Visit us anytime!';
+export const EMAIL_TEMPLATE_ACCOUNT_USER_REMOVED_CONFIRMATION_HEADLINE = 'Removed Confirmation';
+export const EMAIL_TEMPLATE_ACCOUNT_USER_REMOVED_CONFIRMATION_MAIN = {
+  get: ({ accountName }) => `This is just a confirmation that you've been removed from "${accountName}".`,
 };
 export const EMAIL_TEMPLATE_EMAIL_CONFIRM = 'Please confirm your email address.';
 export const EMAIL_TEMPLATE_EMAIL_CONFIRM_CTA = 'Navigate here to confirm.';
