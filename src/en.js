@@ -12,13 +12,13 @@ export const EMAIL_TEMPLATE_ACCOUNT_USER_ADDED_HEADLINE = `You're Added!`;
 export const EMAIL_TEMPLATE_ACCOUNT_USER_ADDED_MAIN = {
   get: ({ accountName }) => `You've been added to "${accountName}" Foo account.`,
 };
-export const EMAIL_TEMPLATE_ACCOUNT_USER_ADDED_SUBJECT = `You've Been Added`;
+export const EMAIL_TEMPLATE_ACCOUNT_USER_ADDED_SUBJECT = `You Have Been Added`;
 export const EMAIL_TEMPLATE_ACCOUNT_USER_INVITED_CTA = 'Accept the invitation by registering here.';
 export const EMAIL_TEMPLATE_ACCOUNT_USER_INVITED_HEADLINE = `You're Invited!`;
 export const EMAIL_TEMPLATE_ACCOUNT_USER_INVITED_MAIN = {
   get: ({ accountName }) => `You've been invited to "${accountName}" Foo account.`,
 };
-export const EMAIL_TEMPLATE_ACCOUNT_USER_INVITED_SUBJECT = `You've Been Invited`;
+export const EMAIL_TEMPLATE_ACCOUNT_USER_INVITED_SUBJECT = `You Have Been Invited`;
 export const EMAIL_TEMPLATE_ACCOUNT_USER_REMOVED_CONFIRMATION_CTA = 'Visit us anytime!';
 export const EMAIL_TEMPLATE_ACCOUNT_USER_REMOVED_CONFIRMATION_HEADLINE = 'Removed Confirmation';
 export const EMAIL_TEMPLATE_ACCOUNT_USER_REMOVED_CONFIRMATION_MAIN = {
@@ -54,16 +54,16 @@ export const EMAIL_TEMPLATE_INVITE_ACCEPTED_MAIN = {
 };
 export const EMAIL_TEMPLATE_INVITE_ACCEPTED_SUBJECT = 'Invite Accepted';
 export const EMAIL_TEMPLATE_PAGE_HEALTH_ALERT_HEALTHY_MAIN = {
-  get: ({ pageName }) => `"${pageName}" page has recovered.`,
+  get: ({ pageName }) => `${pageName} page has recovered.`,
 };
 export const EMAIL_TEMPLATE_PAGE_HEALTH_ALERT_HEALTHY_SUBJECT = {
-  get: ({ pageName }) => `"${pageName}" Has Recovered`,
+  get: ({ pageName }) => `${pageName} Has Recovered`,
 };
 export const EMAIL_TEMPLATE_PAGE_HEALTH_ALERT_UNHEALTHY_MAIN = {
-  get: ({ pageName }) => `"${pageName}" page has become unhealthy.`,
+  get: ({ pageName }) => `${pageName} page has become unhealthy.`,
 };
 export const EMAIL_TEMPLATE_PAGE_HEALTH_ALERT_UNHEALTHY_SUBJECT = {
-  get: ({ pageName }) => `"${pageName}" is Unhealthy`,
+  get: ({ pageName }) => `${pageName} is Unhealthy`,
 };
 export const EMAIL_TEMPLATE_PAGE_HEALTH_ALERT_HEADLINE = 'Page Health Status';
 export const EMAIL_TEMPLATE_PAGE_HEALTH_ALERT_CTA = 'Dashboard';
