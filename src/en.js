@@ -1,7 +1,7 @@
 export const EMAIL_TEMPLATE_ACCOUNT_CANCEL_CTA = 'Come back anytime!';
 export const EMAIL_TEMPLATE_ACCOUNT_CANCEL_HEADLINE = 'Account Canceled';
 export const EMAIL_TEMPLATE_ACCOUNT_CANCEL_MAIN = {
-  get: ({ accountName }) => `Sorry to see you go! "${accountName}" has been canceled. A prorated refund will be issued shortly. Feel free to contact us with any questions.`,
+  get: ({ accountName }) => `Sorry to see you go! "${accountName}" has been canceled. Unless you canceled the last day of the cycle - a prorated refund will be issued shortly. Feel free to contact us with any questions.`,
 };
 export const EMAIL_TEMPLATE_ACCOUNT_CANCEL_MAIN_FREE_TRIAL = {
   get: ({ accountName }) => `Sorry to see you go! "${accountName}" has been canceled. Because you canceled during the trial period - you will not be charged.`,
