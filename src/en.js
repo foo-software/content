@@ -43,7 +43,6 @@ export const EMAIL_TEMPLATE_ID_INVITE_ACCEPTED = 'd-9620b0e881a0407facb3ee4904ed
 export const EMAIL_TEMPLATE_ID_PAGE_HEALTH_ALERT_HEALTHY = 'd-0aef9ceb257e48dbbe5f83c7629cda9b';
 export const EMAIL_TEMPLATE_ID_PAGE_HEALTH_ALERT_UNHEALTHY = 'd-eca574ba0dfa4fe59be8f29a2b32424d';
 export const EMAIL_TEMPLATE_ID_PASSWORD_RESET = 'd-e4f89c8943d9436c95fe2aae3e07a312';
-export const EMAIL_TEMPLATE_ID_REFUND_STATUS = 'd-a1dae5c4a12549c784eebd9f6ea8717b';
 export const EMAIL_TEMPLATE_ID_SUBSCRIPTION_CREATED = 'd-2c0dbb1acd7045ae8ff7879015cbbd91';
 export const EMAIL_TEMPLATE_ID_SUBSCRIPTION_PAYMENT_PAST_DUE = 'd-ae7346390e2c42b69414c51f725aace9';
 export const EMAIL_TEMPLATE_ID_WELCOME = 'd-ccb4f0689c484dda8f2ffc3c41c9b649';
@@ -74,12 +73,6 @@ export const EMAIL_TEMPLATE_PASSWORD_RESET_MAIN = {
   get: ({ passwordResetDays }) => `You have ${passwordResetDays} days to reset your password.`,
 };
 export const EMAIL_TEMPLATE_PASSWORD_RESET_SUBJECT = 'Password Reset';
-export const EMAIL_TEMPLATE_REFUND_STATUS_CTA = 'Visit us anytime here.';
-export const EMAIL_TEMPLATE_REFUND_STATUS_HEADLINE = 'Refund Status';
-export const EMAIL_TEMPLATE_REFUND_STATUS_MAIN = {
-  get: ({ refundAmount }) => `You were refunded $${refundAmount}.`,
-};
-export const EMAIL_TEMPLATE_REFUND_STATUS_SUBJECT = 'Refund Status';
 export const EMAIL_TEMPLATE_SUBSCRIPTION_CREATED_CTA = 'Visit the dashboard.';
 export const EMAIL_TEMPLATE_SUBSCRIPTION_CREATED_HEADLINE = 'Congrats!';
 export const EMAIL_TEMPLATE_SUBSCRIPTION_CREATED_MAIN = {
