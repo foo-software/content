@@ -85,7 +85,7 @@ export const EMAIL_TEMPLATE_SUBSCRIPTION_PAYMENT_PAST_DUE_HEADLINE = 'Payment St
 export const EMAIL_TEMPLATE_SUBSCRIPTION_PAYMENT_PAST_DUE_MAIN = 'Your subscription payment is past due and therefore your account has been switched to "read only" mode until resolved.';
 export const EMAIL_TEMPLATE_SUBSCRIPTION_PAYMENT_PAST_DUE_SUBJECT = 'Subscription Payment Past Due';
 export const EMAIL_TEMPLATE_SUBSCRIPTION_UPGRADED_CTA = 'Visit billing.';
-export const EMAIL_TEMPLATE_SUBSCRIPTION_UPGRADED_HEADLINE = 'Subscription Upgraded!';
+export const EMAIL_TEMPLATE_SUBSCRIPTION_UPGRADED_HEADLINE = 'Upgraded!';
 export const EMAIL_TEMPLATE_SUBSCRIPTION_UPGRADED_MAIN = {
   get: ({ price, planName }) => `Your account subscription was successfully upgraded to "${planName}". You are receiving this email as the owner of the account payment method. Your payment method will be charged ${price} monthly. You can update the payment method and manage billing on our website.`,
 };
