@@ -77,7 +77,7 @@ export const EMAIL_TEMPLATE_PASSWORD_RESET_SUBJECT = 'Password Reset';
 export const EMAIL_TEMPLATE_SUBSCRIPTION_CREATED_CTA = 'Visit the dashboard.';
 export const EMAIL_TEMPLATE_SUBSCRIPTION_CREATED_HEADLINE = 'Congrats!';
 export const EMAIL_TEMPLATE_SUBSCRIPTION_CREATED_MAIN = {
-  get: ({ price, trialDuration }) => `You've successfully created an account subscription. The free trial is ${trialDuration}. If you don't cancel before the end of the trial - you'll be charged ${price} on that day and every month until you cancel. You can cancel anytime in the account section. Cancellations are refunded a prorated amount. If you cancel before the free trial end you won't be charged at all!`,
+  get: ({ currency, price, trialDuration }) => `You've successfully created an account subscription. The free trial is ${trialDuration}. If you don't cancel before the end of the trial - you'll be charged ${price} (${currency}) on that day and every month until you cancel. You can cancel anytime in the account section. Cancellations are refunded a prorated amount. If you cancel before the free trial end you won't be charged at all!`,
 };
 export const EMAIL_TEMPLATE_SUBSCRIPTION_CREATED_SUBJECT = 'Subscription Created';
 export const EMAIL_TEMPLATE_SUBSCRIPTION_PAYMENT_PAST_DUE_CTA = 'You can update or add a new payment method in billing.';
@@ -87,7 +87,7 @@ export const EMAIL_TEMPLATE_SUBSCRIPTION_PAYMENT_PAST_DUE_SUBJECT = 'Subscriptio
 export const EMAIL_TEMPLATE_SUBSCRIPTION_UPGRADED_CTA = 'Visit billing.';
 export const EMAIL_TEMPLATE_SUBSCRIPTION_UPGRADED_HEADLINE = 'Upgraded!';
 export const EMAIL_TEMPLATE_SUBSCRIPTION_UPGRADED_MAIN = {
-  get: ({ price, planName }) => `Your account subscription was successfully upgraded to "${planName}". You are receiving this email as the owner of the account payment method. Your payment method will be charged ${price} monthly. You can update the payment method and manage billing on our website.`,
+  get: ({ currency, price, planName }) => `Your account subscription was successfully upgraded to "${planName}". You are receiving this email as the owner of the account payment method. Your payment method will be charged ${price} (${currency}) monthly. You can update the payment method and manage billing on our website.`,
 };
 export const EMAIL_TEMPLATE_SUBSCRIPTION_UPGRADED_SUBJECT = 'Subscription Upgraded';
 export const EMAIL_TEMPLATE_WELCOME_HEADLINE = 'Welcome!';
