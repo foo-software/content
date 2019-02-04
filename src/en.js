@@ -203,6 +203,7 @@ export const ROLE_ADMIN_NAME = 'Admin';
 export const SUCCESS_ACCOUNT_CREATE = 'Account created!';
 export const SUCCESS_ACCOUNT_REMOVE_USER = 'Account user removed!';
 export const SUCCESS_ACCOUNT_SUBSCRIPTION_PAYMENT_UPDATE = 'Payment method updated!';
+export const SUCCESS_ACCOUNT_SUBSCRIPTION_PAYMENT_UPDATE_WHILE_PAST_DUE = 'Payment method updated! Your account has been re-enabled.';
 export const SUCCESS_ACCOUNT_UPGRADE = 'Upgrade success!';
 export const SUCCESS_ACCOUNT_UPDATE_USER = 'Account user updated!';
 export const SUCCESS_ALERT_CREATE = 'Alert created!';
