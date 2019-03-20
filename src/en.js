@@ -82,7 +82,7 @@ export const EMAIL_TEMPLATE_PAGE_PERFORMANCE_ALERT_UNHEALTHY_MAIN = {
   get: ({ pageName }) => `${pageName} page performed lower than usual.`,
 };
 export const EMAIL_TEMPLATE_PAGE_PERFORMANCE_ALERT_UNHEALTHY_SUBJECT = {
-  get: ({ pageName }) => `${pageName} Performance Score Decline`,
+  get: ({ pageName }) => `${pageName} Performance Score Drop`,
 };
 export const EMAIL_TEMPLATE_PASSWORD_RESET_HEADLINE = 'Password Reset';
 export const EMAIL_TEMPLATE_PASSWORD_RESET_CTA = 'Navigate here to reset your password.';
