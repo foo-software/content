@@ -65,6 +65,24 @@ export const EMAIL_TEMPLATE_PAGE_HEALTH_ALERT_UNHEALTHY_SUBJECT = {
 export const EMAIL_TEMPLATE_PAGE_HEALTH_ALERT_HEADLINE = 'Page Health Status';
 export const EMAIL_TEMPLATE_PAGE_HEALTH_ALERT_CTA = 'Dashboard';
 export const EMAIL_TEMPLATE_PAGE_HEALTH_ALERT_LINK_CTA = 'Visit the dashboard.';
+export const EMAIL_TEMPLATE_PAGE_PERFORMANCE_ALERT_HEALTHY_MAIN = {
+  get: ({ pageName }) => `${pageName} page performance is back to normal.`,
+};
+export const EMAIL_TEMPLATE_PAGE_PERFORMANCE_ALERT_IMPROVEMENT_MAIN = {
+  get: ({ pageName }) => `${pageName} page performance score has improved.`,
+};
+export const EMAIL_TEMPLATE_PAGE_PERFORMANCE_ALERT_IMPROVEMENT_SUBJECT = {
+  get: ({ pageName }) => `${pageName} Performance Score has Improved!`,
+};
+export const EMAIL_TEMPLATE_PAGE_PERFORMANCE_ALERT_HEALTHY_SUBJECT = {
+  get: ({ pageName }) => `${pageName} Performance Score has Recovered`,
+};
+export const EMAIL_TEMPLATE_PAGE_PERFORMANCE_ALERT_UNHEALTHY_MAIN = {
+  get: ({ pageName }) => `${pageName} page performed lower than usual.`,
+};
+export const EMAIL_TEMPLATE_PAGE_PERFORMANCE_ALERT_UNHEALTHY_SUBJECT = {
+  get: ({ pageName }) => `${pageName} Performance Score Decline`,
+};
 export const EMAIL_TEMPLATE_PASSWORD_RESET_HEADLINE = 'Password Reset';
 export const EMAIL_TEMPLATE_PASSWORD_RESET_CTA = 'Navigate here to reset your password.';
 export const EMAIL_TEMPLATE_PASSWORD_RESET_MAIN = {
