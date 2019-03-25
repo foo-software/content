@@ -23,10 +23,10 @@ export const EMAIL_TEMPLATE_ACCOUNT_USER_REMOVED_CONFIRMATION_MAIN = {
 };
 export const EMAIL_TEMPLATE_ACCOUNT_USER_REMOVED_CONFIRMATION_SUBJECT = 'Removed from Account Confirmation';
 export const EMAIL_TEMPLATE_EMAIL_CONFIRM = 'Please confirm your email address.';
-export const EMAIL_TEMPLATE_EMAIL_CONFIRM_CTA = 'Navigate here to confirm.';
+export const EMAIL_TEMPLATE_EMAIL_CONFIRM_CTA = 'Click here to confirm.';
 export const EMAIL_TEMPLATE_EMAIL_CONFIRM_HEADLINE = 'Email Confirm';
 export const EMAIL_TEMPLATE_EMAIL_CONFIRM_SUBJECT = 'Confirm Your Email with Foo';
-export const EMAIL_TEMPLATE_EMAIL_ALERT_CONFIRM_CTA = 'Navigate here to confirm.';
+export const EMAIL_TEMPLATE_EMAIL_ALERT_CONFIRM_CTA = 'Click here to confirm.';
 export const EMAIL_TEMPLATE_EMAIL_ALERT_CONFIRM_HEADLINE = 'Confirm';
 export const EMAIL_TEMPLATE_EMAIL_ALERT_CONFIRM_MAIN = 'Please confirm this email as an alert for Foo. This email will be notified with status updates as they occur.';
 export const EMAIL_TEMPLATE_EMAIL_ALERT_CONFIRM_SUBJECT = 'Email Alert Confirm';
@@ -64,7 +64,7 @@ export const EMAIL_TEMPLATE_PAGE_HEALTH_ALERT_UNHEALTHY_SUBJECT = {
 };
 export const EMAIL_TEMPLATE_PAGE_HEALTH_ALERT_HEADLINE = 'Page Health Status';
 export const EMAIL_TEMPLATE_PAGE_HEALTH_ALERT_CTA = 'Dashboard';
-export const EMAIL_TEMPLATE_PAGE_HEALTH_ALERT_LINK_CTA = 'Visit the dashboard.';
+export const EMAIL_TEMPLATE_PAGE_HEALTH_ALERT_LINK_CTA = 'Dashboard.';
 export const EMAIL_TEMPLATE_PAGE_PERFORMANCE_ALERT_HEADLINE = 'Page Performance Status';
 export const EMAIL_TEMPLATE_PAGE_PERFORMANCE_ALERT_HEALTHY_MAIN = {
   get: ({ pageName }) => `${pageName} page performance is back to normal.`,
@@ -85,12 +85,12 @@ export const EMAIL_TEMPLATE_PAGE_PERFORMANCE_ALERT_UNHEALTHY_SUBJECT = {
   get: ({ pageName }) => `${pageName} Performance Score Drop`,
 };
 export const EMAIL_TEMPLATE_PASSWORD_RESET_HEADLINE = 'Password Reset';
-export const EMAIL_TEMPLATE_PASSWORD_RESET_CTA = 'Navigate here to reset your password.';
+export const EMAIL_TEMPLATE_PASSWORD_RESET_CTA = 'Click here to reset your password.';
 export const EMAIL_TEMPLATE_PASSWORD_RESET_MAIN = {
   get: ({ passwordResetDays }) => `You have ${passwordResetDays} days to reset your password.`,
 };
 export const EMAIL_TEMPLATE_PASSWORD_RESET_SUBJECT = 'Password Reset';
-export const EMAIL_TEMPLATE_SUBSCRIPTION_CREATED_CTA = 'Visit the dashboard.';
+export const EMAIL_TEMPLATE_SUBSCRIPTION_CREATED_CTA = 'Dashboard';
 export const EMAIL_TEMPLATE_SUBSCRIPTION_CREATED_HEADLINE = 'Congrats!';
 export const EMAIL_TEMPLATE_SUBSCRIPTION_CREATED_MAIN = {
   get: ({ currency, price, trialDuration }) => `You've successfully created an account subscription. The free trial is ${trialDuration}. If you don't cancel before the end of the trial - you'll be charged ${price} (${currency}) on that day and every month until you cancel. You can cancel anytime in the account section. Cancellations are refunded a prorated amount. If you cancel before the free trial end you won't be charged at all!`,
@@ -100,7 +100,7 @@ export const EMAIL_TEMPLATE_SUBSCRIPTION_PAYMENT_PAST_DUE_CTA = 'You can update 
 export const EMAIL_TEMPLATE_SUBSCRIPTION_PAYMENT_PAST_DUE_HEADLINE = 'Payment Status';
 export const EMAIL_TEMPLATE_SUBSCRIPTION_PAYMENT_PAST_DUE_MAIN = 'Your subscription payment is past due and therefore your account has been switched to "read only" mode until resolved.';
 export const EMAIL_TEMPLATE_SUBSCRIPTION_PAYMENT_PAST_DUE_SUBJECT = 'Subscription Payment Past Due';
-export const EMAIL_TEMPLATE_SUBSCRIPTION_UPGRADED_CTA = 'Visit billing.';
+export const EMAIL_TEMPLATE_SUBSCRIPTION_UPGRADED_CTA = 'Billing';
 export const EMAIL_TEMPLATE_SUBSCRIPTION_UPGRADED_HEADLINE = 'Upgraded!';
 export const EMAIL_TEMPLATE_SUBSCRIPTION_UPGRADED_MAIN = {
   get: ({ currency, price, planName }) => `Your account subscription was successfully upgraded to "${planName}". You are receiving this email as the owner of the account payment method. Your payment method will be charged ${price} (${currency}) monthly. You can update the payment method and manage billing on our website.`,
