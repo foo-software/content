@@ -64,7 +64,7 @@ export const EMAIL_TEMPLATE_PAGE_HEALTH_ALERT_UNHEALTHY_SUBJECT = {
 };
 export const EMAIL_TEMPLATE_PAGE_HEALTH_ALERT_HEADLINE = 'Page Health Status';
 export const EMAIL_TEMPLATE_PAGE_HEALTH_ALERT_CTA = 'Dashboard';
-export const EMAIL_TEMPLATE_PAGE_HEALTH_ALERT_LINK_CTA = 'Dashboard.';
+export const EMAIL_TEMPLATE_PAGE_HEALTH_ALERT_LINK_CTA = 'Dashboard';
 export const EMAIL_TEMPLATE_PAGE_PERFORMANCE_ALERT_HEADLINE = 'Page Performance Status';
 export const EMAIL_TEMPLATE_PAGE_PERFORMANCE_ALERT_HEALTHY_MAIN = {
   get: ({ pageName }) => `${pageName} page performance is back to normal.`,
