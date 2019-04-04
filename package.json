@@ -1,6 +1,6 @@
 {
   "name": "@foo-software/content",
-  "version": "0.0.43",
+  "version": "0.0.44",
   "description": "Content for Foo",
   "main": "dist/index.js",
   "module": "src/index.js",
