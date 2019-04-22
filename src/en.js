@@ -154,6 +154,9 @@ export const ERROR_PAGE_MAX_PAGES = 'Max page limit has been reached for this ac
 export const ERROR_PAGE_MISSING = 'This page does not exist.';
 export const ERROR_PAGE_UPDATE = 'Error updating page.';
 export const ERROR_PAGE_REMOVE = 'Error removing page.';
+export const ERROR_QUEUE_MAX_USED = {
+  get: ({ numberUsed }) => `You've reached the maximum runs of ${numberUsed} for the hour.`,
+};
 export const ERROR_REMOVE = 'Error removing.';
 export const ERROR_SLACK_CREATE_ACCOUNT_ALERT = 'Error creating account alert';
 export const ERROR_SLACK_INVALID_OAUTH_ACCESS_RESPONSE = 'Authentication failed.';
