@@ -154,7 +154,10 @@ export const ERROR_PAGE_MAX_PAGES = 'Max page limit has been reached for this ac
 export const ERROR_PAGE_MISSING = 'This page does not exist.';
 export const ERROR_PAGE_UPDATE = 'Error updating page.';
 export const ERROR_PAGE_REMOVE = 'Error removing page.';
-export const ERROR_QUEUE_MAX_USED = {
+export const ERROR_QUEUE_MAX_USED_DAY = {
+  get: ({ numberUsed }) => `You've reached the maximum runs of ${numberUsed} for the day.`,
+};
+export const ERROR_QUEUE_MAX_USED_HOUR = {
   get: ({ numberUsed }) => `You've reached the maximum runs of ${numberUsed} for the hour.`,
 };
 export const ERROR_REMOVE = 'Error removing.';
