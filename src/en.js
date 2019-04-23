@@ -161,6 +161,7 @@ export const ERROR_REMOVE = 'Error removing.';
 export const ERROR_SLACK_CREATE_ACCOUNT_ALERT = 'Error creating account alert';
 export const ERROR_SLACK_INVALID_OAUTH_ACCESS_RESPONSE = 'Authentication failed.';
 export const ERROR_SLACK_NATIVE = 'Slack responded with an error.';
+export const ERROR_TOKEN_MISMATCH = `The provided token doesn't match.`;
 export const ERROR_UNAUTHENTICATED = 'You are unauthenticated, please login.';
 export const ERROR_UNHANDLED_EXCEPTION = 'Unhandled error.';
 export const ERROR_UPDATE = 'Error updating.';
