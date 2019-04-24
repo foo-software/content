@@ -257,6 +257,7 @@ export const SUCCESS_INVITATION_CREATE = 'Invitation created!';
 export const SUCCESS_PAGE_CREATE = 'Page created!';
 export const SUCCESS_PAGE_UPDATE = 'Page updated!';
 export const SUCCESS_PAGE_REMOVE = 'Page removed!';
+export const SUCCESS_QUEUE_ADD = 'Added to the queue!';
 export const SUCCESS_REMOVE = 'Removed!';
 export const SUCCESS_UPDATE = 'Updated!';
 export const SUCCESS_USER_CREATE_PASSWORD_RESET_TOKEN = 'You will receive an email with reset instructions shortly!';
