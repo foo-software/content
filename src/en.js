@@ -235,6 +235,7 @@ export const PRODUCT_5_BULLET_4 = 'Slack and PagerDuty alerting.';
 export const PRODUCT_ALERT_EMAIL_LABEL = 'Email';
 export const PRODUCT_ALERT_PAGER_DUTY_LABEL = 'PagerDuty';
 export const PRODUCT_ALERT_SLACK_LABEL = 'Slack';
+export const PRODUCT_REGION_EU_WEST_LABEL = 'EU (London)';
 export const PRODUCT_REGION_US_EAST_LABEL = 'US East (N. Virginia)';
 export const PRODUCT_REGION_US_WEST_LABEL = 'US West (Oregon)';
 export const ROLE_SUPER_DESCRIPTION = 'Full access for all roles.';
