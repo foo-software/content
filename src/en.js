@@ -201,6 +201,7 @@ export const PRODUCT_1_BULLET_4 = '3 user limit.';
 export const PRODUCT_1_BULLET_5 = '5 API performance runs per page, per day.';
 export const PRODUCT_1_BULLET_6 = 'Online reporting.';
 export const PRODUCT_1_BULLET_7 = 'Email notifications.';
+export const PRODUCT_1_BULLET_8 = 'Slack and PagerDuty alerting.';
 export const PRODUCT_2_DESCRIPTION = 'Advanced account for a larger group and number of pages.';
 export const PRODUCT_2_NAME = 'Advanced Performance Monitoring';
 export const PRODUCT_2_BULLET_1 = '4 times a day performance audits run automatically.';
