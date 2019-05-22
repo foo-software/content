@@ -192,6 +192,7 @@ export const PRODUCT_0_BULLET_2 = 'Choice of "US East", "US West", and "UK West"
 export const PRODUCT_0_BULLET_3 = '5 page limit.';
 export const PRODUCT_0_BULLET_4 = '5 API performance runs per page, per day.';
 export const PRODUCT_0_BULLET_5 = 'Online reporting.';
+export const PRODUCT_0_BULLET_6 = 'Email notifications.';
 export const PRODUCT_1_DESCRIPTION = 'Standard account for a small group.';
 export const PRODUCT_1_NAME = 'Standard Performance Monitoring';
 export const PRODUCT_1_BULLET_1 = '2 times a day performance audits run automatically.';
