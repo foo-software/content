@@ -96,7 +96,7 @@ export const EMAIL_TEMPLATE_SUBSCRIPTION_CREATED_MAIN = {
   get: ({ currency, price }) => `You've successfully created an account subscription. You'll be charged ${price} (${currency}) every month until you cancel. You can cancel anytime in the account section. Cancellations are refunded a prorated amount.`,
 };
 export const EMAIL_TEMPLATE_SUBSCRIPTION_CREATED_MAIN_FREE_TRIAL = {
-  get: ({ currency, price }) => `You've successfully created an account subscription. There is a 1 month free trial. If not cancelled before trial end, you'll be charged ${price} (${currency}) every month until you cancel. You can cancel anytime in the account section. Cancellations are refunded a prorated amount.`,
+  get: ({ currency, price }) => `You've successfully created an account subscription. There is a 1 month free trial. If not cancelled before trial end, you'll be charged ${price} (${currency}) every month until you cancel. You can cancel anytime in the account section.`,
 };
 export const EMAIL_TEMPLATE_SUBSCRIPTION_CREATED_SUBJECT = 'Subscription Created';
 export const EMAIL_TEMPLATE_SUBSCRIPTION_PAYMENT_PAST_DUE_CTA = 'You can update or add a new payment method in billing.';
